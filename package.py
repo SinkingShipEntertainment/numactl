@@ -35,3 +35,4 @@ def commands():
     env.PATH.prepend("{root}/bin")
     env.LD_LIBRARY_PATH.prepend("{root}/lib")
     env.PKG_CONFIG_PATH.append("{root}/lib/pkgconfig")
+    env.NUMA_ROOT = "{root}"
