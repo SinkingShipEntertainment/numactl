@@ -62,3 +62,6 @@
 
 # pkg-config file
 numa.pc
+
+# SSE
+_rez_build
